@@ -1,0 +1,351 @@
+body{
+    background-color: f0f0f0;
+}
+
+/*general property of header box */
+#header{
+    
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    height:  170px;
+    background-color: #B0C4DE;
+    justify-content: space-around;
+}
+/* property of school-name box */
+#school-name{
+    display: inline-block;
+    padding: 15px;
+    height: fit-content;
+}
+
+/*general property of miidle box */
+#middle{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border: 1px black solid;
+    background-color: #FFFAF0;
+    justify-content: space-around;
+    padding: 1.5em;
+}
+/* property of student button */
+#student{
+    display: inline-block;
+    height: fit-content;
+    padding: 15px;
+    border: 2px black solid;
+}
+
+
+/* property of lecture button*/
+#lecture{
+    display: inline-block;
+    height: fit-content;
+    padding: 15px;
+    border: 2px black solid;
+}
+
+
+
+/* property of grades button*/
+#grades{
+    display: inline-block;
+    height: fit-content;
+    padding: 15px;
+    border: 2px black solid;
+}
+
+/* property of menu button*/
+#menu{
+    display: inline-block;
+    height: fit-content;
+    padding: 15px;
+    border: 2px black solid;
+}
+
+/* for dropdown menu */
+#dropdown{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+/* change the visibility of dropdown menu when hover the button */
+#dropdown:hover .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    background-color:#B0C4DE;
+}
+
+/* hidden to dropdown menu */
+#dropdown-content {
+    opacity: 0;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    min-width: 160px;
+    transition: 200ms all;
+    visibility: hidden;
+}
+ /*property of dropdown menu's content */
+#dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+ /* change the content color when hover it  */
+#dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* open the search box when click to the search student */
+#search-student-2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.48);
+}
+
+/* closing the opened window */
+.close-window-s{    
+    
+    position: relative;
+    background-color: 	#BDBDBD;
+    margin: 0;
+    cursor: pointer;
+}
+/* style of close button  */
+.close-window-s:hover{
+    background-color: red;
+}
+
+/* open the search box when click to the search lecture*/
+#search-lecture-2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.48);
+}
+
+/* closing the opened window */
+.close-lecture-l{    
+    
+    position: relative;
+    background-color: 	#BDBDBD;
+    margin: 0;
+    cursor: pointer;
+}
+/* style of close window  */
+.close-window-l:hover{
+    background-color: red;
+}
+
+
+
+/* property of adding note to a student */
+#add-note{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.48);
+}
+/* property of form which using for adding not to a student */
+#add-note form {
+    position: relative;
+    min-width: 30%;
+    max-width: 30;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background: white;
+    border-radius: 2rem;
+}
+/* close window's style */
+#close-window{
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: 	#BDBDBD;
+    padding: 0.5em;
+    margin: 0;
+    border-bottom-left-radius: 0.5em;
+    cursor: pointer;
+}
+/* style of close window */
+#close-window:hover{
+    background-color: red;
+}
+/*  property of inputs */
+#add-note form input{
+    margin: 0.5rem;
+    padding: 0.5em;
+}
+/* style of submit button */
+#note-submit{
+    margin: 0.5rem;
+    padding: 0.5em;
+
+}
+/* style of adding student window */
+#add-student-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.48);
+}
+
+/* style of adding student form */
+#add-student-1 form {
+    position: relative;
+    min-width: 30%;
+    max-width: 30;
+    display: flex;
+    flex-direction:column;
+    padding: 2em;
+    background: white;
+    border-radius: 2rem;
+}
+/*  style of close button */
+#close-window-1{
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: 	#BDBDBD;
+    padding: 0.5em;
+    margin: 0;
+    border-bottom-left-radius: 0.5em;
+    cursor: pointer;
+}
+/* style of close button */
+#close-window-1:hover{
+    background-color: red;
+}
+/*  property of inputs */
+#add-student-1 form input{
+    margin: 0.5rem;
+    padding: 0.5em;
+}
+
+/* style of lecture student window */
+#add-lecture-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.48);
+}
+
+/* style of adding lecture form */
+#add-lecture-1 form {
+    position: relative;
+    min-width: 30%;
+    max-width: 30;
+    display: flex;
+    flex-direction:column;
+    padding: 2em;
+    background: white;
+    border-radius: 2rem;
+}
+/*  style of close button */
+#close-window-2{
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: 	#BDBDBD;
+    padding: 0.5em;
+    margin: 0;
+    border-bottom-left-radius: 0.5em;
+    cursor: pointer;
+}
+/* style of close button */
+#close-window-2:hover{
+    background-color: red;
+}
+/*  property of inputs */
+#add-lecture-1 form input{
+    margin: 0.5rem;
+    padding: 0.5em;
+}
+
+/* style of add lecture to student window */
+#add-lecture-to-student{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.48);
+}
+/* style of add lecture to student form  */
+#add-lecture-to-student form {
+    position: relative;
+    min-width: 30%;
+    max-width: 30;
+    display: flex;
+    flex-direction:column;
+    padding: 2em;
+    background: white;
+    border-radius: 2rem;
+}
+
+/* style of close button */
+#close-window-3{
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: 	#BDBDBD;
+    padding: 0.5em;
+    margin: 0;
+    border-bottom-left-radius: 0.5em;
+    cursor: pointer;
+}
+/* style of close button */
+#close-window-3:hover{
+    background-color: red;
+}
+/*  property of inputs */
+#add-lecture-3 form input{
+    margin: 0.5rem;
+    padding: 0.5em;
+}
+
+
+/* closing the input property(increasing-decreasing arrows) when input is number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

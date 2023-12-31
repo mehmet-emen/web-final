@@ -1,0 +1,214 @@
+[
+    {
+      "title": "Introduction to Computer Science",
+      "code": "CENG101",
+      "credit": 3,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Prof. David Johnson",
+      "totalStundent":9,
+      "fails":3
+    },
+    {
+      "title": "Data Structures and Algorithms",
+      "code": "CENG201",
+      "credit": 4,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Dr. Emily Smith",
+      "totalStundent":7,
+      "fails":2
+    },
+    {
+      "title": "Database Systems",
+      "code": "CENG301",
+      "credit": 5,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Assoc. Prof. Michael Davis",
+      "totalStundent":0,
+      "fails":0
+    },
+    {
+      "title": "Software Engineering",
+      "code": "CENG401",
+      "credit": 4,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Asst. Prof. Sarah Wilson",
+      "totalStundent":4,
+      "fails":1
+    },
+    {
+      "title": "Artificial Intelligence",
+      "code": "CENG501",
+      "credit": 5,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Prof. Christopher Brown",
+      "totalStundent":5,
+      "fails":1
+    }
+    ,
+    {
+      "title": "Programming with Java",
+      "code": "CENG102",
+      "credit": 6,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Dr. Jessica Taylor",
+      "totalStundent":3,
+      "fails":1
+    },
+    {
+      "title": "Web Development",
+      "code": "CENG202",
+      "credit": 3,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Assoc. Prof. Kevin Miller",
+      "totalStundent":1,
+      "fails":1
+    },
+    {
+      "title": "Operating Systems",
+      "code": "CENG302",
+      "credit": 4,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Asst. Prof. Lauren Anderson",
+      "totalStundent":5,
+      "fails":1
+    },
+    {
+      "title": "Mobile App Development",
+      "code": "CENG402",
+      "credit": 5,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Prof. Daniel White",
+      "totalStundent":1,
+      "fails":0
+    },
+    {
+      "title": "Machine Learning",
+      "code": "CENG502",
+      "credit": 6,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Dr. Megan Garcia",
+      "totalStundent":2,
+      "fails":2
+    },
+    {
+      "title": "Object-Oriented Programming",
+      "code": "CENG103",
+      "credit": 4,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Assoc. Prof. Matthew Martin",
+      "totalStundent":0,
+      "fails":0
+    },
+    {
+      "title": "Computer Networks",
+      "code": "CENG203",
+      "credit": 3,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Asst. Prof. Olivia Robinson",
+      "totalStundent":2,
+      "fails":0
+    },
+    {
+      "title": "Cybersecurity",
+      "code": "CENG303",
+      "credit": 4,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Prof. Ethan Hall",
+      "totalStundent":1,
+      "fails":0
+    },
+    {
+      "title": "Human-Computer Interaction",
+      "code": "CENG403",
+      "credit": 5,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Dr. Sophia Lewis",
+      "totalStundent":1,
+      "fails":0
+    },
+    {
+      "title": "Cloud Computing",
+      "code": "CENG503",
+      "credit": 4,
+      "exams": [
+        {
+            "midterm": 40,
+            "final": 60
+        }
+      ],
+      "instructor": "Assoc. Prof. Nathan Clark",
+      "totalStundent":1,
+      "fails":0
+    }
+  ]
+  

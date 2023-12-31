@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Management System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="school-name" id="school-name">
+            <h1>Muğla Sıtkı Koçman University</h1>
+            <h3>Student Management System</h3>
+        </div>
+    </div>
+
+    <div class="middle" id="middle">
+        <!-- student button dropdown menu content-->
+        <div class="dropdown" id="dropdown">
+            <button class="student" id="student">Student</button>
+            <div class="dropdown-content" id="dropdown-content">
+                <a href="#" class="show-all-student" id="show-all-student"  onclick="showStudentInfo()"> all student</a>
+                <a href="#" class="search-student" id="search-student">serach student</a>
+
+            </div>
+       </div>
+
+
+        <!--lecture button dropdown menu content-->
+        <div class="dropdown" id="dropdown">
+            <button class="lecture" id="lecture" >Lecture</button>
+            <div class="dropdown-content" id="dropdown-content">
+                <a href="#" class="show-all-lecture" id="show-all-lecture"  onclick="showLectureInfo()"> all lecture</a>
+                <a href="#" class="search-lecture" id="search-lecture">serach lecture</a>
+
+            </div>
+        </div>
+
+
+        <!--grades button dropdown menu content-->
+        <div class="dropdown" id="dropdown">
+            <button class="grades" id="grades">Grades</button>
+            <div class="dropdown-content" id="dropdown-content">
+                <a href="#" class="add-note-to-student" id="add-note-to-student">add note</a>
+            </div>
+        </div>
+
+        <!--menu button dropdown menu content -->
+        <div class="dropdown" id="dropdown">
+            <button class="menu" id="menu"> menü</button>
+            <div class="dropdown-content" id="dropdown-content">
+                <a href="#" class="add-student" id="add-student">add student</a>
+                <a href="#" class="add-lecture" id="add-lecture">add lecture</a>
+                <a href="#" class="add-L-to-S" id="add-L-to-S">add lesson to a student</a>
+            </div>
+        </div>
+    
+
+            <!--search student box  -->
+        <div class="search-student-2" id="search-student-2">
+            <label for="studentIdInput">Enter Student ID: </label>
+            <input type="text" class="studentIdInput" id="studentIdInput">
+            <button class="close-window-s" id="close-window-s" onclick="searchStudent()">Search</button>
+            <div id="searchResult"></div>
+        </div>
+
+
+
+           <!--search lecture box -->
+        <div class="search-lecture-2" id="search-lecture-2">
+            <label for="lectureCodeInput">Enter Lecture Code: </label>
+            <input type="text" class="lectureCodeInput" id="lectureCodeInput">
+            <button class="close-window-l" id="close-window-l" onclick="searchLecture()">Search</button>
+            <div id="searchResult"></div>
+        </div>
+
+
+
+        <!-- adding grades to a student  -->
+        <div class="add-note" id="add-note">
+            <form >
+                <h3 class="close-window" id="close-window">X</h3>
+                <label>id</label>
+                <input type="number" placeholder="id">
+                <label>lesson</label>
+                <input type="text" placeholder="lesson">
+                <label >midterm</label>
+                <input type="number" placeholder=" midterm">
+                <label >final</label>
+                <input type="number" placeholder="final">
+                <button class="note-submit" id="note-submit">submit</button>
+            </form>
+        </div>
+
+
+            <!-- adding a new student -->
+        <div class="add-student-1" id="add-student-1">
+            <form >
+                <h3 class="close-window-1" id="close-window-1">X</h3>
+                <label >name</label>
+                <input type="text" class="student-name" id="student-name" placeholder="name">
+                <label >surname</label>
+                <input type="text" class="student-surname" id="student-surname" placeholder="surname">
+                <label >ID</label>
+                <input type="number" class="student-ID" id="student-ID" placeholder="ID">
+                <button class="add-student-button" id="add-student-button" onclick="addStudent()">save</button>
+            </form>
+        </div>
+            <!-- adding a new lecture -->
+        <div class="add-lecture-1" id="add-lecture-1">
+            <form>
+                <h3 class="close-window-2" id="close-window-2">X</h3>
+                <label >name</label>
+                <input type="text" class="lecture-name" id="lecture-name" placeholder="name">
+                <label > code</label>
+                <input type="text" class="lecture-code" id="lecture-code" placeholder="code">
+                <label>credit</label>
+                <input type="number" class="lecture-credit" id="lecture-credit" placeholder="credit">
+                <label >Instructor</label>
+                <input type="text" class="instructor-name" id="instructor-name" placeholder="Instructor">
+                <button class="add-lecture-button" id="add-lecture-button" onclick="addLecture()" > save   </button>
+
+            </form>
+        </div>
+        <!-- add lecture to a student form -->
+        <div class="add-lecture-to-student" id="add-lecture-to-student">
+            <form>
+                <h3 class="close-window-3" id="close-window-3">X</h3>
+                <label>student ID</label>
+                <input type="number" class="s-ID" id="s-ID" placeholder="ID">
+                <label>lecture Code</label>
+                <input type="text" class="l-code" id="l-code" placeholder="code">
+                <button class="add-button" id="add-button">add</button>
+            </form>
+        </div>
+    </div>    
+
+
+
+    <!-- calling js file -->
+    <script src="./script.js"></script>
+
+
+</body>
+</html>

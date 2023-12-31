@@ -1,0 +1,675 @@
+[
+  {
+    "ID": 123456789,
+    "name": "John",
+    "surname": "Doe",
+    "GPA": 2.85,
+    "courses": [
+      {
+        "code": "CENG101",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 60,
+            "final": 70,
+            "average": 66,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG201",
+        "credit": 6,
+        "grade": [
+          {
+            "midterm": 60,
+            "final": 70,
+            "average": 66,
+            "fGrades": "DD",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG501",
+        "credit": 5,
+        "grade": [
+          {
+            "midterm": 75,
+            "final": 80,
+            "average": 77.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG303",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 85,
+            "final": 90,
+            "average": 87.5,
+            "fGrades": "BA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 234567890,
+    "name": "Alice",
+    "surname": "Johnson",
+    "GPA": 3.86,
+    "courses": [
+      {
+        "code": "CENG101",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 70,
+            "final": 75,
+            "average": 72.5,
+            "fGrades": "BA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG201",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 80,
+            "final": 85,
+            "average": 82.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG302",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 88,
+            "final": 92,
+            "average": 90,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 345678901,
+    "name": "David",
+    "surname": "Miller",
+    "GPA": 3.79,
+    "courses": [
+      {
+        "code": "CENG101",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 65,
+            "final": 72,
+            "average": 68.5,
+            "fGrades": "BB",
+            "pf": "f"
+          }
+        ]
+      },
+      {
+        "code": "CENG501",
+        "credit": 5,
+        "grade": [
+          {
+            "midterm": 75,
+            "final": 80,
+            "average": 77.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG502",
+        "credit": 6,
+        "grade": [
+          {
+            "midterm": 82,
+            "final": 88,
+            "average": 85,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 456789012,
+    "name": "Emma",
+    "surname": "Wilson",
+    "GPA": 2.40,
+    "courses": [
+      {
+        "code": "CENG101",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 78,
+            "final": 85,
+            "average": 81.5,
+            "fGrades": "AB",
+            "pf": "f"
+          }
+        ]
+      },
+      {
+        "code": "CENG201",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 88,
+            "final": 92,
+            "average": 90,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG302",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 76,
+            "final": 82,
+            "average": 79,
+            "fGrades": "BB",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 567890123,
+    "name": "Michael",
+    "surname": "Brown",
+    "GPA": 3.77,
+    "courses": [
+      {
+        "code": "CENG101",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 68,
+            "final": 75,
+            "average": 71.5,
+            "fGrades": "BB",
+            "pf": "f"
+          }
+        ]
+      },
+      {
+        "code": "CENG502",
+        "credit": 6,
+        "grade": [
+          {
+            "midterm": 82,
+            "final": 88,
+            "average": 85,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG401",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 90,
+            "final": 95,
+            "average": 92.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 678901234,
+    "name": "Sophia",
+    "surname": "Jones",
+    "GPA": 4.00,
+    "courses": [
+      {
+        "code": "CENG302",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 75,
+            "final": 80,
+            "average": 77.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG201",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 85,
+            "final": 90,
+            "average": 87.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG403",
+        "credit": 5,
+        "grade": [
+          {
+            "midterm": 90,
+            "final": 95,
+            "average": 92.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 789012345,
+    "name": "Oliver",
+    "surname": "Davis",
+    "GPA": 1.85,
+    "courses": [
+      {
+        "code": "CENG501",
+        "credit": 5,
+        "grade": [
+          {
+            "midterm": 90,
+            "final": 95,
+            "average": 92.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG302",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 78,
+            "final": 85,
+            "average": 81.5,
+            "fGrades": "AB",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG503",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 88,
+            "final": 92,
+            "average": 90,
+            "fGrades": "DD",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 890123456,
+    "name": "Ava",
+    "surname": "Taylor",
+    "GPA": 2.40,
+    "courses": [
+      {
+        "code": "CENG101",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 92,
+            "final": 98,
+            "average": 95,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG203",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 85,
+            "final": 90,
+            "average": 87.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG302",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 90,
+            "final": 95,
+            "average": 92.5,
+            "fGrades": "FF",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 901234567,
+    "name": "Ethan",
+    "surname": "Moore",
+    "GPA": 3.77,
+    "courses": [
+      {
+        "code": "CENG102",
+        "credit": 6,
+        "grade": [
+          {
+            "midterm": 80,
+            "final": 85,
+            "average": 82.5,
+            "fGrades": "BA",
+            "pf": "f"
+          }
+        ]
+      },
+      {
+        "code": "CENG201",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 75,
+            "final": 80,
+            "average": 77.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG202",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 85,
+            "final": 90,
+            "average": 87.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 987654321,
+    "name": "Grace",
+    "surname": "Williams",
+    "GPA": 3.82,
+    "courses": [
+      {
+        "code": "CENG501",
+        "credit": 5,
+        "grade": [
+          {
+            "midterm": 72,
+            "final": 78,
+            "average": 75,
+            "fGrades": "BA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG401",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 80,
+            "final": 85,
+            "average": 82.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG402",
+        "credit": 5,
+        "grade": [
+          {
+            "midterm": 85,
+            "final": 90,
+            "average": 87.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 876543210,
+    "name": "Liam",
+    "surname": "Smith",
+    "GPA": 2.18,
+    "courses": [
+      {
+        "code": "CENG101",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 88,
+            "final": 92,
+            "average": 90,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG201",
+        "credit": 5,
+        "grade": [
+          {
+            "midterm": 78,
+            "final": 85,
+            "average": 81.5,
+            "fGrades": "AB",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG203",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 92,
+            "final": 95,
+            "average": 93.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 765432109,
+    "name": "Chloe",
+    "surname": "Anderson",
+    "GPA": 3.67,
+    "courses": [
+      {
+        "code": "CENG101",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 68,
+            "final": 75,
+            "average": 71.5,
+            "fGrades": "BB",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG201",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 82,
+            "final": 88,
+            "average": 85,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG501",
+        "credit": 5,
+        "grade": [
+          {
+            "midterm": 90,
+            "final": 95,
+            "average": 92.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 654321098,
+    "name": "Ella",
+    "surname": "Thomas",
+    "GPA": 2.77,
+    "courses": [
+      {
+        "code": "CENG101",
+        "credit": 3,
+        "grade": [
+          {
+            "midterm": 85,
+            "final": 90,
+            "average": 87.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG401",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 78,
+            "final": 85,
+            "average": 81.5,
+            "fGrades": "AB",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG102",
+        "credit": 6,
+        "grade": [
+          {
+            "midterm": 92,
+            "final": 95,
+            "average": 93.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 543210987,
+    "name": "Mason",
+    "surname": "Jackson",
+    "GPA": 3.60,
+    "courses": [
+      {
+        "code": "CENG102",
+        "credit": 6,
+        "grade": [
+          {
+            "midterm": 75,
+            "final": 80,
+            "average": 77.5,
+            "fGrades": "BB",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CHEM301",
+        "credit": 5,
+        "grade": [
+          {
+            "midterm": 82,
+            "final": 88,
+            "average": 85,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      },
+      {
+        "code": "CENG401",
+        "credit": 4,
+        "grade": [
+          {
+            "midterm": 90,
+            "final": 95,
+            "average": 92.5,
+            "fGrades": "AA",
+            "pf": "p"
+          }
+        ]
+      }
+    ]
+  }
+]
+
+  
